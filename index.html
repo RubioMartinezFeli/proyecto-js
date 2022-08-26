@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 20</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <body class="body1">
+    <div class="temas">
+        <div id="verde" onclick="cambiarColor(event)" class="tema1"></div>
+        <div id="rojo" onclick="cambiarColor(event)" class="tema3"></div>
+        <div id="azul" onclick="cambiarColor(event)" class="tema2"></div>
+    </div>
+    <div class="mask">
+        <header class="herader">
+            <div id="logo" class="logo">
+                <p>PROYECTO JS</p>
+            </div>
+            <nav class="menu">
+                <ul id="lista">
+                    <li class="item"><a href="index.html">INICIO</a></li>
+                    <li class="item"><a href="reloj.html">RELOJ</a></li>
+                    <li class="item"><a href="sobre-mi.html">SOBRE MI</a></li>
+                    <li class="item"><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="borde-img">
+            <div id="imagen" class="imagen-cabezera">
+                <div class="botones-interiores">
+                    <div id="boton-i" onclick="anteriorImagen(event)" class="-izq"><p><</p></div>
+                    <div id="boton-d" onclick="siguienteImagen(event)" class="-der"><p>></p></div>
+                </div>               
+            </div>
+        </div>
+        <div class="botones">
+            <div class="botones-img">
+                <div class="seleccionado" id="boton1" onclick="cambiarImagen(event)"></div>
+                <div class="boton" id="boton2" onclick="cambiarImagen(event)"></div>
+                <div class="boton" id="boton3" onclick="cambiarImagen(event)"></div>
+            </div>
+        </div>
+        <div class="content">
+            <section class="main">
+                
+            </section>
+            <aside>
+                <div class="targeta">
+                    <div class="barra"><h3 class="titulo-img">¿Quien soy?</h3></div>
+                    
+                    <img src="imagenes\snail-4729777_960_720.jpg" alt="imagen-aside">
+                    <p class="parrafo-targeta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</p>
+                </div>
+                <div class="formulario">
+                    <div class="barra"><h3 class="titulo-img">Sesión</h3></div>
+                    <form onsubmit="obternerForm(event)">
+                        <input type="text" id="nombre" placeholder="Nombre" name="nombre" class="campo-texto">
+                        <input type="text" id="apellidos" placeholder="Apellidos" name="apellidos" class="campo-texto">
+                        <input type="submit" name="enviar" id="enviar" class="enviar" value="Enviar">
+                    </form>
+                </div>
+            </aside>
+        </div>
+        <footer>Feli Rubio WEB &copy; 2022</footer>
+    </div>
+    <script src="codigo.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</body>
+</div>
+
+</html>
