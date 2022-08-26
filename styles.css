@@ -484,15 +484,13 @@ footer{
     border: transparent;
     cursor: pointer;
     transition: all 300ms;
+    margin-bottom: 15px;
 }
 
 .enviar:hover,
 .enviarContacto:hover{
     background-color: #08331d;
-    
-
-
-
+    margin-bottom: 15px;
 }
 
 .enviarR,
@@ -504,6 +502,7 @@ footer{
     border: transparent;
     cursor: pointer;
     transition: all 300ms;
+    margin-bottom: 15px;
 }
 
 .enviarA,
@@ -515,16 +514,19 @@ footer{
     border: transparent;
     cursor: pointer;
     transition: all 300ms;
+    margin-bottom: 15px;
 }
 
 .enviarR:hover,
 .enviarContactoR:hover{
     background-color:  #672a06;
+    margin-bottom: 15px;
 }
 
 .enviarA:hover,
 .enviarContactoA:hover{
     background-color: #0a3d64;
+    margin-bottom: 15px;
 }
 
 
@@ -618,17 +620,18 @@ span{
     }
     .reloj {
         font-size: 30px;
-        width: 50%;
+        width: 70%;
         height: 4em;
         margin-bottom: 4em;
         margin-top: 4em;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 5px;
         background-color : Black;
         color : #b3f704;
         font-family : Verdana, Arial, Helvetica;
         text-align : center;
     }
+    
   }
   
 
